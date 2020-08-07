@@ -34,7 +34,7 @@ export default {
       ctx.$store.commit("setTestA", count);
     };
     return { count, add, str, a, update };
-  },
+  }
   //总结下哈：
 
   //   vue3.0都写在setup里，以前的所有数据状态都写在data里，
